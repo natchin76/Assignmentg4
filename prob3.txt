@@ -1,0 +1,3 @@
+time taken by Linear congruential method: 0.02274036407470703
+time taken by numpy function:2.384185791015625e-07
+
