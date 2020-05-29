@@ -22,7 +22,11 @@ for i in range(n):
         theta.append(theta_prime)
     else:
         theta.append(theta[i])        
-
+x=np.linspace(3,7,50)
+y=np.zeros(50)
+for i in range(50):
+    y[i]=0.25*f(x[i])
+plt.plot(x,y)
 plt.hist(theta,density='true',range=(3,7))
 plt.show()
 plt.figure(figsize=(16,3))
