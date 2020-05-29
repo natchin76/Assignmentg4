@@ -15,8 +15,7 @@ x=np.linspace(0,1,n)
 y=np.ones(n)
 t1=time.time()
 t2=time.time()
-for i in range(n):
-    rand2[i]=np.random.uniform()    
+rand2=np.random.rand(n)
 
 plt.hist(rand2,density=True)
 plt.title('Using numpy function')
